@@ -1,0 +1,149 @@
+/* tabletis */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.qualidade:after {
+		left: 63px;
+	}
+	.qualidade-lista li {
+		padding: 0 10px;
+	}
+	.footer-redes ul li a {
+		display: block;
+		right: 10px;
+	}
+		.footer-contato ul li{
+		font-size: 12px;
+	}
+		.footer-contato {
+		margin-right: 40px;
+		margin-left: -30px;
+	}
+	.produto-item h2 {
+		top: -150px;
+		margin-bottom: -56px;
+	}
+	.produto-info {
+		width: 364px;
+		height: auto;
+		margin-left: 10px;
+	}
+	.produto-info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+		padding: 20px 20px 17px 20px;
+	}
+	.produto-info ul li {
+		font-size: 16px;
+		width: 181px;
+		height: 39px;
+		padding-top: 11px;
+	}
+}
+/* smartfones */
+@media only screen and (max-width: 767px) {
+	.header{
+		position: relative;
+		padding-bottom: 0;
+	}
+	.header img {
+		width: 160px;
+		header: 54px;
+		margin: 0 auto 10px auto;
+	}
+	.header_menu {
+		text-align: center;
+	}
+	.header_menu ul li {
+		margin: 5px;
+	}
+	.header_menu ul li a {
+	border: 3px solid #fff;
+	width: 137px;
+	float: left;
+	display: block;
+	}
+	.header_menu ul li a:hover {
+		border-color: #000;
+	}
+
+
+	.introducao {
+		margin-top: 0;
+		padding-top: 20px;
+		background: url("../img/bg-mobile.jpg") no-repeat center;
+		background-size: cover;
+	}
+	.introducao h1 {
+	font-size: 30px;
+	}
+	.qualidade:after {
+	content: none;
+	}
+	.footer-redes ul li a {
+		display: inline-block;
+		right: 10px;
+
+	}
+	.footer-redes ul li a img {
+		
+	}
+
+	.introducao-interna-sobre {
+		margin-top: 0;
+	}
+	.missao-sobre p {
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0px;
+	}
+	.missao-sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
+		padding-right: 0px;
+	}
+	.introducao-interna-produtos {
+		margin-top: 0;
+	}
+	.produto-item h2 {
+		top: -100px;
+		width: 300px;
+		margin-bottom: -68px;
+	}
+	.produto-info {
+		background: #000;
+		width: 300px;
+		height: auto;
+		margin-left: 0px;
+	}
+	.produto-info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+		padding: 20px 20px 17px 20px;
+	}
+	.produto-info ul li {
+		font-size: 14px;
+		line-height: 20px;
+		width: 149px;
+		height: 39px;
+		padding-top: 11px;
+	}
+	.form-orcamento {
+		padding-right: 0;
+	}
+	.orcamento-dados ul {
+		padding-right: 0;
+	}
+	.introducao-interna-portifolio {
+		margin-top: 0px;
+	}
+	.form-contato {
+		padding-right: 0px;
+	}
+	.introducao-interna-contato {
+		margin-top: 0px;
+	}
+	.footer-historia {
+	padding-right: 0px; 
+}
+}
